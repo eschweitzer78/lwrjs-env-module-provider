@@ -1,0 +1,24 @@
+{
+  "name": "lwrjs-env-module-provider",
+  "version": "1.0.0",
+  "description": "A module provider for environment variables in LWR",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eschweitzer78/lwrjs-env-module-provider.git"
+  },
+  "keywords": [
+    "LWR",
+    "module",
+    "provider"
+  ],
+  "author": "Emmanuel Schweitzer",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/eschweitzer78/lwrjs-env-module-provider/issues"
+  },
+  "homepage": "https://github.com/eschweitzer78/lwrjs-env-module-provider#readme"
+}
