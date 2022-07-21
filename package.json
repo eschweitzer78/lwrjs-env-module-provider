@@ -1,5 +1,5 @@
 {
-  "name": "lwrjs-env-module-provider",
+  "name": "@eschweitzer78/lwrjs-env-module-provider",
   "license": "BSD-3-Clause",
   "publishConfig": {
     "access": "public"
@@ -35,5 +35,9 @@
   "author": "Emmanuel Schweitzer",
   "engines": {
     "node": ">=14.15.4 < 19"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
