@@ -25,7 +25,7 @@
     "*.js",
     "*.cjs"
   ],
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A module provider for environment variables in LWR",
   "keywords": [
     "LWR",
