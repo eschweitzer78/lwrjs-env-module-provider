@@ -10,16 +10,20 @@ of environment variables (normally accessible under `process.env`) into your LWC
 ## Configuration
 
 The LWR server is configured in `lwr.config.json`, at the root of the project. You will need to configure the module providers
-to add the `lwrjs-env-module-provider`, which is available on npm as `@eschweitzer78/lwrjs-env-module-provider`. Remember to all the standard module providers too.
+to add the `lwrjs-env-module-provider`, which is available on npm as `@eschweitzer78/lwrjs-env-module-provider`.
+
+Install it using `npm i @eschweitzer78/lwrjs-env-module-provider`
+
+Then change the configuration file and remember to add all the standard module providers too.
 
 ```json
 // lwr.config.json
 {
-      "moduleProviders": [
-      "@eschweitzer78/lwrjs-env-module-provider",
-      "@lwrjs/app-service/moduleProvider",
-      "@lwrjs/lwc-module-provider",
-      "@lwrjs/npm-module-provider"
+  "moduleProviders": [
+    "@eschweitzer78/lwrjs-env-module-provider",
+    "@lwrjs/app-service/moduleProvider",
+    "@lwrjs/lwc-module-provider",
+    "@lwrjs/npm-module-provider"
   ]
 }
 ```
