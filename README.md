@@ -34,7 +34,8 @@ import envValue from '@eschweitzer78/env/USERNAME';
 
 You can then use the imported value as required, here is a full example:
 
-```javacript
+```javascript
+// app.js
 import { LightningElement } from 'lwc';
 
 import envValue from '@eschweitzer78/env/USERNAME';
@@ -45,6 +46,7 @@ export default class HelloWorldApp extends LightningElement {
 ```
 
 ```html
+<!-- app.html -->
 <template>
   <main>
     <img src="/public/assets/recipes-logo.png" alt="logo" />
